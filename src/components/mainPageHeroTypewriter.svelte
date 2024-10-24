@@ -26,10 +26,11 @@
         <div id="bg" class="p-10 -m-10">
             <p class="text-white sm:text-md md:text-lg lg:text-xl xl:text-2xl">
                 Hi, we're 
-        <Typewriter --cursor-width={props["--cursor-width"]} --cursor-color={props["--cursor-color"]} on:done={() => console.log("The animation has finished!")} {...props}>
-            <h3 class="font-primary font-bold text-white sm:text-2xl md:text-3xl lg:text-6xl xl:text-8xl">
-                PorkyProductions
-            </h3>
+        <!--<Typewriter --cursor-width={props["--cursor-width"]} --cursor-color={props["--cursor-color"]} on:done={() => console.log("The animation has finished!")} {...props}>-->
+                <h3 class="font-primary font-bold text-white sm:text-2xl md:text-3xl lg:text-6xl xl:text-8xl">
+                    PorkyProductions
+                </h3>
+            <!--
             <h3 class="font-primary font-bold text-white sm:text-2xl md:text-3xl lg:text-6xl xl:text-8xl">
                 Making Games
             </h3>
@@ -51,8 +52,9 @@
                     PorkyProductions
                 </h3>
             {/if}
-        </Typewriter>
-    </p>
+            -->
+        <!--</Typewriter>-->
+            
         </div>
     </main>
     
